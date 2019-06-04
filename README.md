@@ -55,7 +55,7 @@ kube-scheduler-master                   1/1     Running            101        13
 kubernetes-dashboard-56768b7988-bgzl6   1/1     Running            10         132d
 metrics-server-5f78f74857-vq8db         1/1     Running            3          25h
 node-exporter-6tzrm                     1/1     Running            2          19h
-fluentd-6zsdx                           1/1     Running   		   0          100s
+fluentd-6zsdx                           1/1     Running            0          100s
 
 $ kubectl logs fluentd-6zsdx -n kube-system
 
